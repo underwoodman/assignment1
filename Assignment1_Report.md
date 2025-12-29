@@ -17,7 +17,7 @@
 ## 2. Neo4j 安装与启动 (5分)
 
 ### 安装步骤
-1.  下载 Neo4j Desktop 或 Server 版 (Community Edition)。
+1.  下载 Neo4j Desktop 或 Server 版 (Community Edition 5.24)。
 2.  配置 Java 环境 (JDK 17+)。
 3.  解压并运行安装程序。
 
@@ -89,5 +89,3 @@ Generated Cypher: MATCH (d:Disease {name: '糖尿病'})-[:HAS_Drug]->(n) RETURN 
 ### 运行截图
 ![对话系统交互](images/1-qa.jpg)
 
-## 6. 提交 (5分)
-本报告已导出，代码已托管于 GitHub (模拟链接: `https://github.com/username/medical-kbqa-assignment`)。
